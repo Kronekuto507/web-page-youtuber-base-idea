@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    box-shadow: 0px 5px 10px gray;
+}
+
+body {
+    background: linear-gradient(to right, #fff, rgb(197, 194, 194));
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    margin-right: 15px;
+    padding: 8px 30px 8px 30px;
+    border-radius: 20px;
+    border-left: 40px white;
+    font-family: 'Source Serif Pro', serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo img {
+    color: white;
+    height: 60px;
+}
+
+
+/*Extracto de index.css*/
+
+.container_2 {
+    padding: 10px;
+}
+
+.container_2 h1 {
+    text-align: center;
+    font-family: 'Source Serif Pro', sans-serif;
+    font-weight: 500;
+}
+
+.content .video_display {
+    display: flex;
+    gap: 35px;
+}
+
+.video_display a {
+    display: block;
+    text-align: center;
+}
+
+.content .video_display img {
+    width: 45vh;
+    height: 25vh;
+    margin-left: 0;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 3px solid plum;
+    transform: scaleX(1);
+    transition: all 1s;
+}
+
+.content .video_display img:hover {
+    transform: scaleX(-1);
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+#vid .hover {
+    position: absolute;
+    width: 45vh;
+    height: 25vh;
+    top: 38vh;
+    padding-left: 5px;
+    font-size: 50px;
+    z-index: -1;
+}
+
+#vid2 .hover {
+    position: absolute;
+    width: 45vh;
+    height: 25vh;
+    top: 98vh;
+    padding-left: 5px;
+    font-size: 50px;
+    z-index: -1;
+}
+
+#vid3 .hover {
+    position: absolute;
+    width: 45vh;
+    height: 25vh;
+    top: 165vh;
+    padding-left: 5px;
+    font-size: 50px;
+    z-index: -1;
+}
+
+.text {
+    width: 45vh;
+    height: 30vh;
+    text-align: justify;
+}
+
+.line {
+    width: 100%;
+    background-color: black;
+    height: 1px;
+}
+
+@keyframes hover {
+    0% {
+        font-size: 0;
+    }
+    100% {
+        font-size: 50px;
+    }
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(to right, rgb(41, 0, 0), rgb(153, 2, 2));
+    position: relative;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 40px;
+    padding-top: 3vh;
+    color: white;
+}
+
+footer .left {
+    position: absolute;
+    padding-top: 3vh;
+    top: 0;
+    left: 0;
+    color: white;
+    padding-left: 3vh;
+}
+
+footer .right {
+    position: absolute;
+    padding-top: 3vh;
+    padding-right: 3vh;
+    top: 0;
+    right: 0;
+    color: white;
+}
+
+i {
+    cursor: pointer;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+a {
+    font-family: 'Source Serif Pro', sans-serif;
+    margin: 5px;
+}
+
+.video_display a:hover {
+    font-size: larger;
+    cursor: pointer;
+    font-style: italic;
+    text-transform: uppercase;
+    color: blue;
+    transition: all 0.5s;
+}
+
+h3 {
+    margin: 5px;
+    background: linear-gradient(to right, #000, rgb(78, 78, 78));
+    padding: 1vh;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.text p {
+    font-family: 'Sans Serif Pro', sans-serif;
+    font-size: small;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    box-shadow: 0px 5px 10px gray;
+}
+
+body {
+    background-image: url("background-login.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+}
+
+header button {
+    margin-right: 15px;
+    padding: 8px 30px 8px 30px;
+    border-radius: 20px;
+    border-left: 40px white;
+    font-family: 'Source Serif Pro', serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo img {
+    color: white;
+    height: 60px;
+}
+
+
+/*Seccion de logeo */
+
+.section {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+}
+
+.signUpSection {
+    background: rgba(255, 255, 255, 0.8);
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+    border-radius: 23px;
+    gap: 10px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.signUpSection>h2,
+.signUpSection>h1 {
+    text-align: center;
+}
+
+.signUpSection img {
+    margin: 50px auto;
+}
+
+.section>h4 {
+    text-align: center;
+    color: wheat;
+    margin: 10vh;
+}
+
+.rem {
+    position: relative;
+}
+
+.rem a {
+    position: absolute;
+    right: 0;
+}
+
+
+/*Seccion de logeo */
+
+form {
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-weight: bold;
+}
+
+form button {
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid rgb(241, 160, 151);
+    box-shadow: 0px 8px 0px rgb(80, 3, 3);
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 200, 98);
+}
+
+form button:hover {
+    transition: all 0.4s;
+    cursor: pointer;
+    /*box-shadow: 0px 8px 0px rgb(241, 160, 151);
+    border: 3px solid rgb(245, 245, 245);*/
+    background-color: rgb(252, 169, 224);
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(to right, rgb(41, 0, 0), rgb(153, 2, 2));
+    position: relative;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 40px;
+    padding-top: 3vh;
+    color: white;
+}
+
+footer .left {
+    position: absolute;
+    padding-top: 3vh;
+    top: 0;
+    left: 0;
+    color: white;
+    padding-left: 3vh;
+}
+
+footer .right {
+    position: absolute;
+    padding-top: 3vh;
+    padding-right: 3vh;
+    top: 0;
+    right: 0;
+    color: white;
+}
+
+i {
+    cursor: pointer;
+}
+
+footer h4 {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+footer a {
+    font-family: 'Source Serif Pro', sans-serif;
+    margin: 5px;
+}
+
+form .e-mail input,
+form .password input {
+    width: 95%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 2%;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form .e-mail input:focus,
+form .password input:focus {
+    outline: 1px solid lightblue;
+}
+
+.section>h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.section>h4 b {
+    color: lightblue;
+}
+
+.section>h4 b:hover {
+    cursor: pointer;
+    color: lightsalmon;
+}
+
+form a:hover {
+    color: darkblue;
+}
